@@ -15,6 +15,12 @@ while True: # main game loop
             sys.exit()
     pygame.display.update()
 ```
+Notes:
+
+Normally if you want to call a function that
+is in a module, you must use the modulename.functionname() format after importing the
+module. However, with from modulename import *, you can skip the modulename.
+portion and simply use functionname() (just like Python’s built-in functions)
 
 >resources/practice/[HelloWorld.py](https://github.com/badorius/pygame_course/blob/main/resources/practice/HelloWorld.py)
 ---
